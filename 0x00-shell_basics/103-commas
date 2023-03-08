@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -ap1 --group-directories-first | LC_ALL=C sort -d -f -k1.1 | paste -sd ","
+ls -xamp
