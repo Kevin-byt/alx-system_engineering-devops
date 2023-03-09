@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod :school hello
+chown :school hello
