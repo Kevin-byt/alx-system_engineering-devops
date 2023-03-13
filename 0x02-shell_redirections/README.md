@@ -5,3 +5,4 @@ The following scripts are in this folder:
 4. 3-twofiles --> Displays the content of /etc/passwd and /etc/hosts
 5. 4-lastlines --> Displays the last 10 lines of /etc/passwd
 6. 5-firstlines --> Displays the first 10 lines of /etc/passwd 
+7. 6-third_line -->  Line #2
