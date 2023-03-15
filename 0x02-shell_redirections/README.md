@@ -22,3 +22,7 @@ The following scripts are in this folder:
 21. 20-hiago --> Removes all letters c and C from input.
 22. 21-reverse --> Reverses its input.
 23. 22-users_and_homes --> Displays all users and their home directories, sorted by users.
+24. 100-empty_casks --> Finds all empty files and directories in the current directory and all sub-directories.
+25. 101-gifs --> Lists all the files with a .gif extension in the current directory and all its sub-directories.
+26. 102-acrostic --> Decodes acrostics that use the first letter of each line.
+
