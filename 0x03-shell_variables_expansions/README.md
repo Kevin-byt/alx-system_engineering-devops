@@ -12,3 +12,7 @@ The following scripts are in this folder
 11. 10-love_exponent_breath --> Displays the result of BREATH to the power LOVE
 12. 11-binary_to_decimal --> Converts a number from base 2 to base 10.
 13. 12-combinations --> Prints all possible combinations of two letters, except oo.
+14. 13-print_float --> Prints a number with two decimal places, followed by a new line.
+15. 100-decimal_to_hexadecimal --> Converts a number from base 10 to base 16.
+16. 101-rot13 --> Encodes and decodes text using the rot13 encryption. Assume ASCII.
+17. 
