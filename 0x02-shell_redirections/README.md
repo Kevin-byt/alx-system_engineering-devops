@@ -14,4 +14,7 @@ The following scripts are in this folder:
 13. 12-newest_files --> Displays the 10 newest files in the current directory.
 14. 13-unique --> Takes a list of words as input and prints only words that appear exactly once.
 15. 14-findthatword --> Displays lines containing the pattern “root” from the file /etc/passwd 
-
+16. 15-countthatword --> Displays the number of lines that contain the pattern “bin” in the file /etc/passwd
+17. 16-whatsnext --> Displays lines containing the pattern “root” and 3 lines after them in the file /etc/passwd.
+18. 17-hidethisword --> Displays all the lines in the file /etc/passwd that do not contain the pattern “bin”.
+19. 18-letteronly --> Displays all lines of the file /etc/ssh/sshd_config starting with a letter.
