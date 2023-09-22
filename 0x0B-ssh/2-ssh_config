@@ -1,0 +1,7 @@
+# Config file for ssh client
+Host *
+    IdentityFile ~/.ssh/school
+    PasswordAuthentication no
+    HashKnownHosts yes
+    GSSAPIAuthentication yes
+    GSSAPIDelegateCredentials no
