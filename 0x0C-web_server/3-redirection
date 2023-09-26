@@ -42,7 +42,7 @@ else
 fi
 
 # Configure Nginx to redirect to another page permanently with a 301 Moved Permanently HTTP response
-sudo sed -i "/listen 80 default_server;/a rewrite ^/redirect_me https://linkedin.com/in/kevinkiruri/ permanent;" /etc/nginx/sites-available/default
+sudo sed -i "/listen 80 default_server;/a rewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;" /etc/nginx/sites-available/default
 
 # Check if the configuration is valid
 if nginx -t | grep "successful"; then

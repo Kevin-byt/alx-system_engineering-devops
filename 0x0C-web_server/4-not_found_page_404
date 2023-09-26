@@ -6,7 +6,7 @@
 # - Configure Nginx so that its redirecting to another page permanently
 # - Configure Nginx to have a custom 404 page that contains the string `Ceci n'est pas une page`
 
-link="https://www.linkedin.com/in/kevinkiruri/"
+link="https://www.youtube.com/watch?v=QH2-TGUlwu4"
 config="/etc/nginx/sites-available/default"
 error_file="/var/www/html/404.html"
 
@@ -47,7 +47,7 @@ else
 fi
 
 # Configure Nginx to redirect to another page permanently with a 301 Moved Permanently HTTP response
-sudo sed -i "/listen 80 default_server;/a rewrite ^/redirect_me https://linkedin.com/in/kevinkiruri/ permanent;" $config
+sudo sed -i "/listen 80 default_server;/a rewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;" $config
 
 # Configure Nginx to have a custom 404 page that contains the string `Ceci n'est pas une page`
 
