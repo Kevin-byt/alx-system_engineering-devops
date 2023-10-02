@@ -49,8 +49,8 @@ frontend achrafelkhnissi.tech
 
 backend servers
   balance roundrobin
-  server 233018-web-01 54.196.40.132:80 check
-  server 233018-web-02 52.23.213.94:80 check
+  server 316900-web-01 54.236.27.48:80 check
+  server 316900-web-02 52.91.135.181:80 check
 EOF
 
 # Enable HAProxy
