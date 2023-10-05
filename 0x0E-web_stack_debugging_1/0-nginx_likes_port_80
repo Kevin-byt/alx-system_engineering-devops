@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Bash script with the minimum number of commands
+# to make a container communicate on port 80.
+mv /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+cp /etc/nginx/sites-enabled/default /etc/nginx/sites-available/default 
+service nginx stop
+pkill nginx
+service nginx start
